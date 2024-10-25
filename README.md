@@ -22,7 +22,16 @@ Swin tranformer architecture:
 ## Requirements
 To install the required libraries, run:
 ``` bash
-pip install torch torchvision timm scikit-learn tqdm pandas
+#clone the project
+git clone https://github.com/kanishk-8/Misahub_vce.git
+
+#create a virtual environment
+python -m venv venv
+source venv/bin/activate  
+
+#install dependencies
+pip install -r requirements.txt
+
 ```
 ## Dataset 
 The training and validation dataset has been developed using
